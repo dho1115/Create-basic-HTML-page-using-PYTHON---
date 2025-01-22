@@ -31,6 +31,8 @@ try:
                    "</body>", 
                    "</html>"
                    ];
+   
+   HTML_file.write("");
 
    for i in htmlElements:
       HTML_file.write(f"{i}\n") #Iterate Through htmlElements and write each element (i) onto index.html. The \n is for aesthetics.
