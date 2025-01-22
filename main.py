@@ -1,7 +1,9 @@
 """
 My github repo can be viewed here: https://github.com/dho1115/Create-basic-HTML-page-using-PYTHON---
 """
-
+"""
+YouTube Link: https://youtu.be/8tPl5F2YLpA
+"""
 try:
    #Information that will be displayed onto index.html.
    companyName= input ("Input the Company Name!!! ")
@@ -22,8 +24,9 @@ try:
                    f"<h1>NAME: {name}</h1>", 
                    f"<h3>JOB TITLE: {jobTitle}</h3>",
                    "</div>",
-                   "<script type=\"text/Javascript\">",
-                   "alert('WEBSITE IN PROGRESS... MAY OR MAY NOT BE COMPLETED.')",
+                   "<script type=\"text/Javascript\">", #UPDATE!!! Got the Javascript to work!!!
+                   f"const companyName='{companyName}'",
+                   f"alert('Welcome to the future site of {companyName}')",
                    "</script>",
                    "</body>", 
                    "</html>"
